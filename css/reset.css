@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+html,
+body {
+  font-size: 100%;
+  overflow-x: hidden;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+.top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+
+}
+.hbg-box{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    left: -100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
