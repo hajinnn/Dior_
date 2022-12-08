@@ -15,7 +15,7 @@ height: 14px;
 }
 .hamberger span{
     width: 80%;
-    height: 1.5px;
+    height: 1px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     transition: 0.3s;

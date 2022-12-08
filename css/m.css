@@ -9,10 +9,16 @@
 header .header-wrap .logo svg{
     width: 70px;
 }
-    /* sec2 */
+
+.sec1 .txt-box h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* sec2 */
  .sec2 {
     /* height: unset; */
-    height: 6952px;
+    height: 6715px;
     box-sizing: border-box;
 }
 .sec2-container {
@@ -157,9 +163,9 @@ header .header-wrap .logo svg{
     margin-top: 60px;
 }
 .menu-list a{
-    margin-top: 30px;
-    font-size: 28px;
-    font-weight: 200;
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 300;
 }
 .img-txt-box p{
     display: none;
@@ -178,15 +184,23 @@ header .header-wrap .logo svg{
 .sec2 .sec2-container .start-wrap .img-txt-box .logo-png{
     width: 100px;
 }
-
+.sec2 .sec2-container .card-box .box.active .text-box{
+    padding: 50px 80px;
+}
+.sec2 .sec2-container .card-box .box.active .text-box svg{
+    width: 80px;
+}
 .sec2 .sec2-container .card-box .box.active .text-box h1{
-    font-size: 14px;
+    font-size: 26px;
+    font-weight: 300;
+    
 }
 .sec2 .sec2-container .card-box .box.active .text-box span{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 200;
 }
 .sec2 .sec2-container .card-box .box.active .text-box p{
-    font-size: 11px;
+    display: none;
 }
 .m-title p span{
     font-size: 56px;
@@ -205,7 +219,7 @@ header .header-wrap .icon-box{
     margin-left: 110px;
 }
 .video__more ul li .more p{
-    font-size: 24px;
+    font-size: 16px;
 }
 
 
@@ -294,6 +308,7 @@ header .header-wrap .icon-box svg{
 }
 .hbg-box li .top-menu{
     position: relative;
+    font-size: 12px;
 }
 .hbg-box li .top-menu svg{
     position: absolute;
@@ -354,11 +369,11 @@ header .header-wrap .icon-box svg{
 }
 .hbg-box li > a{
     margin-top: 0;
-    line-height: 44px;
+    line-height: 34px;
     color: #ddd;
 }
 .hbg-box .sub-menu a{
-    padding: 0;
+    padding: 5px;
 }
 .hbg-box li .top-menu svg{
     top: 18px;
@@ -419,10 +434,13 @@ footer .footer-wrap .bottom .bottom-wrap .box ul li{
     color: rgb(91, 91, 91);
 }
 footer .footer-wrap .bottom-wrap .box select{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 }
-
+footer .footer-wrap .bottom-wrap .box input{
+    font-size: 10px;
+    width: 75px;
+}
 
 
 
