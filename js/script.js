@@ -11,19 +11,36 @@ $(document).ready(function(){
   });
   // 햄버거박스 메뉴 슬라이드 부분
 
-  $(".menu-top >a").click(function(){
-    var submenu = $(this).next(".menu-top ul");
-  if( submenu.is(":visible") ){
-    submenu.slideUp();
-    // $('.hbg-box li .top-menu svg').removeClass('active');
-  }
-  else{
-    submenu.slideDown();
-    // $('.hbg-box li .top-menu svg').addClass('active');
-  }
+  // $(".menu-top >a").click(function(){
+  //   var submenu = $(this).next(".menu-top ul");
+  // if( submenu.is(":visible") ){
+  //   submenu.slideUp();
+
+  // }
+  // else{
+  //   submenu.slideDown();
+
+  // }
     
-  });
+  // });
   
+
+  $('.hbg-box .menu-top').click(function(){
+    // $(this).siblings().find('.top-menu svg').removeClass('active');
+    // $(this).siblings().children('.sub-menu').slideUp();
+    // $(this).find('.top-menu svg').toggleClass('active');
+    // $(this).children('.sub-menu').slideToggle();
+
+    $(this).siblings().find('.top-menu svg').removeClass('active');
+    $(this).siblings().children('.sub-menu').slideUp();
+    $(this).find('.top-menu svg').toggleClass('active');
+    $(this).children('.sub-menu').slideToggle();
+  });
+
+
+
+
+
   
   //sec-4 swiper
   var swiper = new Swiper(".mySwiper5", {
